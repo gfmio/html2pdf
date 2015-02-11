@@ -4,7 +4,6 @@
 
 # Parameters and defaults
 
-
 srcFile=$1
 if [[ $srcFile == "" ]]; then
 	echo "Source file or URL not provided."
@@ -44,12 +43,14 @@ if [[ wkhtmltopdfFound == "wkhtmltopdf not found" ]]; then
 fi
 
 # Script execution
-rm $docName
+
+# Remove existing output file
+if [ -f $outFile ]; then
+	rm $outFile
+fi
 
 w=$(( $width * $scalingFactor ))
 h=$(( $height * $scalingFactor ))
-
-echo $w, $h, $srcName, $docName 
 
 wkhtmltopdf --use-xserver --page-width "$w"px --page-height "$h"px -B 0 -L 0 -R 0 -T 0 --zoom $zoomFactor $srcFile $outFile
 

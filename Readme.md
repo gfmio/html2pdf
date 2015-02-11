@@ -1,6 +1,6 @@
 # HTML PDF Builder
 
-A small shell script that uses `wkhtmltopdf` to build PDF documents from HTML5 documents. Especially suited for creating PDF presentations as a 1 to 1 copy of your HTML presentations.
+A small shell script that uses `wkhtmltopdf` to build PDF documents from HTML5 documents. Especially suited for creating PDF presentations as a 1 to 1 copy of your HTML presentations. Obviously also useful for PDF screenshots of websites.
 
 ## Usage
 
