@@ -21,3 +21,5 @@ Note that due to the behaviour of `wkhtmltopdf`, the `SRC_LOCATION` can be the *
 You're welcome to fork your own version or provide additions & leave comments. You can also e-mail me at [me@gfm.io](mailto:me@gfm.io).
 
 LICENSE: MIT
+
+Copyright (C) 2015 Frédérique Mittelstaedt, gfm.io, me@gfm.io
