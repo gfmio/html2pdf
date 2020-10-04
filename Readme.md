@@ -1,6 +1,6 @@
 # HTML PDF Builder
 
-A small shell script that uses `wkhtmltopdf` to build PDF documents from HTML5 documents. Especially suited for creating PDF presentations as a 1 to 1 copy of your HTML presentations. Obviously also useful for PDF screenshots of websites. It's better than a normal screenshot though, because the PDF contains all text and images as seperate elements, which can be manipulated individually.
+A small shell script that uses `wkhtmltopdf` to build PDF documents from HTML5 documents. Especially suited for creating PDF presentations as a 1 to 1 copy of your HTML presentations. Obviously also useful for PDF screenshots of websites. It's better than a normal screenshot though, because the PDF contains all text and images as separate elements, which can be manipulated individually.
 
 Presentation export is tested with reveal.js. You may want to use the reveal.js config to do customize the size of the presentation to fit the size of your example. The example pdf file (revealjs.pdf) was created using `./html2pdf.sh http://lab.hakim.se/reveal-js\?print-pdf revealjs.pdf 1280 768`.
 
